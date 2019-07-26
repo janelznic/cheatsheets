@@ -21,7 +21,7 @@
 
 
 ## Cheatsheets
-- [Linux Shell](linux-shell/index.md)
+- [Linux Shell (Debian)](linux-shell/index.md)
 
 
 ## Links
