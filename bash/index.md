@@ -1,7 +1,7 @@
 # Bash cheatsheet
 
 
-&laquo; [Back to index](#)
+&laquo; [Back to index](https://github.com/janelznic/cheatsheets)
 
 ## Table of Contents
 - [Basic commands](#Basic-commands)
