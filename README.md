@@ -21,7 +21,7 @@
 
 
 ## Cheatsheets
-- [Bash](bash/index.md)
+- [Linux Shell](linux-shell/index.md)
 
 
 ## Links

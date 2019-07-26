@@ -1,4 +1,4 @@
-# Bash cheatsheet
+# Linux Shell cheatsheet
 
 
 &laquo; [Back to index](https://github.com/janelznic/cheatsheets)
