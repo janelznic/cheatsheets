@@ -5,7 +5,13 @@
 
 ## Table of Contents
 - [Basic commands](#Basic-commands)
-
+- [Root](#Root)
+- [Processes and services](#Processes-and-services)
+- [Files and directories](#Files-and-directories)
+- [Samba](#Samba)
+- [Apache2](#Apache2)
+- [Debian packages](#Debian-packages)
+- [Mount](#Mount)
 
 ### Basic commands
 * Show help for specific command ```man [command] ```
@@ -61,3 +67,23 @@
 ### Apache2
 * Test Apache2 configutartion ```apachectl configtest```
 * Restart Apache2 service ```systemctl restart apache2```
+
+### Debian packages
+* Build a package of the all components [or specific directory] ```make all [directory]```
+* Load and update list of packages on the server ```makepkginc lenny-u```
+* Copy the file with package to remote server ```scp package.deb root@server.tld:/root/packages/```
+* Login via SSH to remote server ```ssh user@servername```
+* Install a specific local package from file ```dpkg -i package.deb```
+* Show specific package installed on this machine ```dpkg -l | grep [name of the package]```
+* Show status of the packages in the table ```dpkg -l | grep -V '^ii'```
+* Build a signed package ```dpkg-buildpackage -uc -us```
+* Build unsigned package ```dpkg-buildpackage --no-sign```
+* Create a key to sign the package ```gpg --full-generate-key```
+* Find a specific package in remote repositories ```apt-cache search webmail | grep szn```
+* Update informations about packages from repositories ```apt update```
+* Install the package from repository ```apt install mc```
+* Uninstall the package from OS including its configuration ```apt-get remove szn-sblog-fulltext --purge```
+
+### Mount
+* Mount remote Samba point ```mount //__IP__/d /mnt/test -o user=elza,iocharset=utf8,file_mode=0777,dir_mode=0777```
+* Unmount ```umount /mnt/test```
