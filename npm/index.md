@@ -6,7 +6,7 @@
 ## Table of Contents
 - [NPM](#NPM)
 
-### Basic commands
+### NPM
 * Update Node.js ```npm -g install npm@latest```
 * Show NPM version ```npm --version```
 * Search package in repository ```npm search cordova```
@@ -16,6 +16,7 @@
 * Install specific version of package ```npm install cordova-@1.0```
 * Update of the all packages in package.json and save new versions ```npm update```
 * Install last stable version globally (mostly for current user) ```npm install npm@latest -g```
+* Show last known version of specific package ```npm show css-loader version```
 * Show list of dependencies ```npm list```
 * Show list of dependencies for specific package ```npm list cordova```
 * Uninstall package and delete it from package.json ```npm uninstall cordova```
