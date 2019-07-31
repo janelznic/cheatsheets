@@ -22,6 +22,7 @@
 
 ## Cheatsheets
 - [Linux Shell (Debian)](linux-shell/index.md)
+- [NPM](npm/index.md)
 
 
 ## Links
