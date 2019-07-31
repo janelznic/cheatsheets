@@ -1,7 +1,7 @@
 # Linux Shell cheatsheet (Debian)
 
 
-&laquo; [Back to index](/janelznic/cheatsheets)
+&laquo; [Back to index](https://github.com/janelznic/cheatsheets)
 
 ## Table of Contents
 - [Basic commands](#Basic-commands)
