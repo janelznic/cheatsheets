@@ -21,8 +21,10 @@
 
 
 ## Cheatsheets
+- [Git](git/index.md)
 - [Linux Shell (Debian)](linux-shell/index.md)
 - [NPM](npm/index.md)
+- [Subversion (SVN)](svn/index.md)
 
 
 ## Links
