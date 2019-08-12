@@ -8,6 +8,7 @@
 - [Root](#Root)
 - [Processes and services](#Processes-and-services)
 - [Files and directories](#Files-and-directories)
+- [SSH](#SSH)
 - [Samba](#Samba)
 - [Apache2](#Apache2)
 - [Debian packages](#Debian-packages)
@@ -59,6 +60,10 @@
 * Replace a string in file ```sed -ie 's/foo/bar/g' file.txt```
 * Unpack a file to directory ```tar xvf -C /dir```
 * Pack a directory to file ```tar -zcvf package.tar.gz /dir```
+
+### SSH
+* Generate a new private & public key ```ssh-keygen -t rsa -b 4096 -C "your_email@example.com"```
+
 
 ### Samba
 * Restart Samba service ```sudo systemctl restart smbd```
