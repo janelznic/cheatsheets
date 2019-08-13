@@ -64,14 +64,17 @@
 ### SSH
 * Generate a new private & public key ```ssh-keygen -t rsa -b 4096 -C "your_email@example.com"```
 
-
 ### Samba
 * Restart Samba service ```sudo systemctl restart smbd```
 * Show list of Samba users ```pdbedit -L -v```
 
 ### Apache2
-* Test Apache2 configutartion ```apachectl configtest```
-* Restart Apache2 service ```systemctl restart apache2```
+* Test Apache2 configutartion ```sudo apachectl configtest```
+* List all virtual hosts with related config files ```sudo apachectl -S | grep namevhost```
+* Status Apache2 service ```sudo systemctl status apache2```
+* Start Apache2 service ```sudo systemctl start apache2```
+* Stop Apache2 service ```sudo systemctl stop apache2```
+* Restart Apache2 service ```sudo systemctl restart apache2```
 
 ### Debian packages
 * Build a package of the all components [or specific directory] ```make all [directory]```
