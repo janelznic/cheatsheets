@@ -90,7 +90,11 @@
 * Find a specific package in remote repositories ```apt-cache search webmail | grep szn```
 * Update informations about packages from repositories ```apt update```
 * Install the package from repository ```apt install mc```
+* Uninstall the package ```apt remove mc```
 * Uninstall the package from OS including its configuration ```apt-get remove szn-sblog-fulltext --purge```
+* Remove automatically all unused packages  ```apt autoremove```
+* Upgrade the system by installing / upgrading packages ```apt upgrade```
+* Attempt to correct broken dependencies for packages ```apt install -f```
 
 ### Mount
 * Mount remote Samba point ```mount //__IP__/d /mnt/test -o user=elza,iocharset=utf8,file_mode=0777,dir_mode=0777```
