@@ -6,6 +6,7 @@
 ## Table of Contents
 - [Basic commands](#Basic-commands)
 - [Root](#Root)
+- [User management](#User-management)
 - [Processes and services](#Processes-and-services)
 - [Files and directories](#Files-and-directories)
 - [SSH](#SSH)
@@ -18,6 +19,7 @@
 * Show help for specific command ```man [command] ```
 * Current logged in user ```id```
 * Change password for current user ```passwd```
+* Group memberships for current user ```groups```
 * Logout user ```exit```
 
 ### Root
@@ -27,6 +29,12 @@
 * Lock file for changes ```chattr +i /etc/resolv.conf```
 * Unlock file for changes ```chattr -i /etc/resolv.conf```
 * Check file if it's locked for changes ```lschattr /etc/resolv.conf```
+
+### User management
+* Create user to system ```adduser <username>```
+* Remove user from system ```deluser <username>```
+* Add user to any group ```gpasswd -a <username> <groupname>```
+* Add user to sudo group ```sudo usermod -aG sudo <username>```
 
 ### Processes and services
 * List of processes ```ps ax``` or ```htop``` _(non-standard program utility)_
@@ -65,6 +73,12 @@
 * Generate a new private & public key ```ssh-keygen -t rsa -b 4096 -C "your_email@example.com"```
 
 ### Samba
+* Set a new password for current user ```smbpasswd```
+* Change the password for any user ```smbpasswd <username>```
+* Add user ```smbpasswd -a <username>```
+* Remove user ```smbpasswd -x <username>```
+* Disable user ```smbpasswd -d <username>```
+* Enable user ```smbpasswd -e <username>```
 * Restart Samba service ```sudo systemctl restart smbd```
 * Show list of Samba users ```pdbedit -L -v```
 
