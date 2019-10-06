@@ -14,6 +14,7 @@
 - [Apache2](#Apache2)
 - [Debian packages](#Debian-packages)
 - [Mount](#Mount)
+- [Datetime](#Datetime)
 
 ### Basic commands
 * Show help for specific command ```man [command] ```
@@ -113,3 +114,8 @@
 ### Mount
 * Mount remote Samba point ```mount //__IP__/d /mnt/test -o user=elza,iocharset=utf8,file_mode=0777,dir_mode=0777```
 * Unmount ```umount /mnt/test```
+
+### Datetime
+* Set timezone ```timedatectl set-timezone Europe/Prague```
+
+
