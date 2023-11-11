@@ -41,4 +41,4 @@ Before creating a new pull request please check your Markdown validity!
 
 ## License
 
-MIT © Jan Elznic – [Homepage](https://janelznic.cz) – [Github](https://github.com/janelznic) – [GitLab](https://gitlab.elznic.net/janelznic) – [LinkedIn](https://linkedin.com/in/janelznic/)
+MIT © Jan Elznic – [Homepage](https://janelznic.cz) – [GitHub](https://github.com/janelznic) – [LinkedIn](https://linkedin.com/in/janelznic/)
