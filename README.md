@@ -33,6 +33,7 @@
 
 
 ## Links
+- [Makrdown docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Makrdown WYSIWYG editor](https://jbt.github.io/markdown-editor/)
 
 
