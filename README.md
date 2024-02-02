@@ -23,13 +23,13 @@
 
 
 ## Cheatsheets
-- [Docker](docker/index.md)
-- [Git](git/index.md)
-- [Linux Shell (Debian)](linux-shell/index.md)
-- [NPM](npm/index.md)
-- [Subversion (SVN)](svn/index.md)
-- [PostgreSQL](postgresql/index.md)
-- [WSL](wsl/index.md) - Windows Subsystem for Linux
+- [Docker](docker/README.md)
+- [Git](git/README.md)
+- [Linux Shell (Debian)](linux-shell/README.md)
+- [NPM](npm/README.md)
+- [Subversion (SVN)](svn/README.md)
+- [PostgreSQL](postgresql/README.md)
+- [WSL](wsl/README.md) - Windows Subsystem for Linux
 
 
 ## Links
