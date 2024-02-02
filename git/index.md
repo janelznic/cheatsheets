@@ -13,6 +13,7 @@
 - [Recovery](#Recovery)
 - [Save fragments](#Save-fragments)
 - [Synchronization](#Synchronization)
+- [Submodules](#Submodules)
 - [Other](#Other)
 
 
@@ -88,6 +89,14 @@
 * Show related remote repositories ```git remote -v```
 * Rebase local repository with changes from remote repository ```git pull upstream/master --rebase```
 * Rebase local repository with changes from specific remote repository ```git pull --rebase git@github.com:RedHatInsights/vulnerability-ui.git```
+
+
+### Submodules
+* Init submodules ```git submodule init```
+* Checkout submodules ```git submodule update```
+* Switch to the branch ```git submodule set-branch master```
+* Create a module in host repo ```git submodule add git@github.com:easyadmin-system/easyadmin-frontend.git```
+* Status ```git submodule status```
 
 
 ### Other
