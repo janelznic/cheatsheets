@@ -13,3 +13,8 @@
 * Show all distros (running and stopped) ```wsl -l -v```
 * Shutdown distro ```wsl -t <DISTRO_NAME>```
 * Set distro as default ```wsl -s <DISTRO_NAME>```
+
+
+### Network
+* Accessing a WSL 2 distribution from your local area network (LAN) ```netsh interface portproxy add v4tov4 listenport=80 listenaddress=0.0.0.0 connectport=80 connectaddress=172.31.17.108``` (Run as administrator)
+* Show all listening proxy ports forwarded to WSL2 ```netsh interface portproxy show all```
