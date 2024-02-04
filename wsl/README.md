@@ -16,5 +16,7 @@
 
 
 ### Network
-* Accessing a WSL 2 distribution from your local area network (LAN) ```netsh interface portproxy add v4tov4 listenport=80 listenaddress=0.0.0.0 connectport=80 connectaddress=172.31.17.108``` (Run as administrator)
-* Show all listening proxy ports forwarded to WSL2 ```netsh interface portproxy show all```
+* Accessing a WSL 2 distribution from your local area network (LAN) _(Run as administrator)_ \
+  ```netsh interface portproxy add v4tov4 listenport=80 listenaddress=0.0.0.0 connectport=80 connectaddress=172.31.17.108```
+* Show all listening proxy ports forwarded to WSL2 \
+  ```netsh interface portproxy show all```
