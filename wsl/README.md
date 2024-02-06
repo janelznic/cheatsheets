@@ -12,7 +12,9 @@
 ### Basic commands
 * Show all distros (running and stopped) ```wsl -l -v```
 * Shutdown distro ```wsl -t <DISTRO_NAME>```
+* Start distro ```wsl -d <DISTRO_NAME>```
 * Set distro as default ```wsl -s <DISTRO_NAME>```
+* Shutdown WSL completely ```wsl --shutdown```
 
 
 ### Network
