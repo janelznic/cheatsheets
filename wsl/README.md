@@ -25,4 +25,4 @@
 * Accessing a WSL 2 distribution from your local area network (LAN) _(Run as administrator)_ (Win) \
   ```netsh interface portproxy add v4tov4 listenport=80 listenaddress=0.0.0.0 connectport=80 connectaddress=172.31.17.108```
 * Delete the access of WSL 2 distribution from your local area network (LAN) _(Run as administrator)_ (Win) \
-  ```netshnetsh interface portproxy delete v4tov4 listenport=80 listenaddress=0.0.0.0```
+  ```netsh interface portproxy delete v4tov4 listenport=80 listenaddress=0.0.0.0```
